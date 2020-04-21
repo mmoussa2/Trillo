@@ -1,0 +1,40 @@
+.nav-bar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #2d4059;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.session-buttons {
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-button {
+  text-decoration: none;
+  color: #f07b3f;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.session-button {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: linear 0.5s;
+  background-color: #5c5c5c;
+}
+
+.session-button:hover {
+  transition: linear 0.5s;
+  background-color: #f07b3f;
+}

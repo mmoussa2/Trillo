@@ -1,0 +1,96 @@
+.card-container {
+  background-color: #ebecf0;
+  /* border: 1px solid red; */
+}
+
+.all-cards {
+  /* border: 1px solid green; */
+}
+
+.card-item {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: ghostwhite;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* .add-card{
+   
+} */
+
+.card-add-form button {
+  background-color: #61bd4f;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.card-add {
+  background-color: gainsboro;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 42px;
+}
+
+.card-add:hover {
+  background-color: darkgrey;
+}
+
+.card-title-textbox {
+  border: 1px solid black;
+  padding: 5px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  font-size: 16px;
+  float: left;
+  font-weight: bold;
+}
+.card-description {
+  color: grey;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.btn-card-add {
+  float: left;
+  font-size: 16px;
+  font-size: 16px;
+}
+.btn-card-add > button:hover {
+  background-color: green;
+}
+
+.btn-card-cancel > button:hover {
+  background-color: green;
+}
+
+.btn-card-add > button {
+  font-size: 12px;
+}
+
+.btn-card-cancel > button {
+  font-size: 12px;
+}

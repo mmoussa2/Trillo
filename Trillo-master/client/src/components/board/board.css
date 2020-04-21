@@ -1,0 +1,14 @@
+.board-detail-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#no-boards {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  padding: 50px;
+  margin: 200px;
+  justify-content: center;
+}

@@ -1,0 +1,110 @@
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebecf0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+}
+
+.list-item-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-item-title {
+  background-color: transparent;
+  margin: 5px 5px 5px 0;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.list-item-title:focus {
+  background-color: white;
+}
+
+.list-add {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebecf0;
+  opacity: 0.5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 220px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-add-form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ebecf0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-add-form input {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.list-add-form button {
+  background-color: #61bd4f;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.list-item-card {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  width: 100%;
+}
+
+.btn-card-add {
+  float: left;
+  font-size: 16px;
+  font-size: 16px;
+}
+.btn-card-add > button:hover {
+  background-color: green;
+}
+
+.btn-card-cancel > button:hover {
+  background-color: green;
+}
+
+.btn-card-add > button {
+  font-size: 12px;
+}
+
+.btn-card-cancel > button {
+  font-size: 12px;
+}
