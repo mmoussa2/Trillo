@@ -34,7 +34,7 @@
   
   ### Implementation Timeline
   * Day 0 (Weekend) Begin the repo and project. Complete:
-    * Determine styling defaults for project (all)
+    * Determine styling defaults for project
     * User auth 
     * Styled home page allowing User to register, login, logout 
     * Email verification for user registration
